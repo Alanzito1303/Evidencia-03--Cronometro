@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 5em;
+    min-height: 100%;
+    background:url(https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg);
+}
+
+.cronometro {
+    user-select: none;
+}
+
+.cronometro .tiempo {
+
+    height: 100px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .09);
+
+}
+
+.cronometro .tiempo span {
+
+    width: 100px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    color: rgb(4, 81, 119);
+
+}
+
+.tiempo span.puntos {
+
+    width: 10px;
+
+}
+
+.tiempo span.ms-puntos,
+.tiempo span.milisegundos {
+
+    color: rgb(4, 81, 119);
+
+}
+
+.cronometro .botones {
+
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.botones button {
+
+    padding: 6px 16px;
+    outline: none;
+    border: none;
+    margin: 0 5px;
+    color: rgb(4, 81, 119);
+    background: #fff;
+    font-size: 19px;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .09);
+}
+
+.botones button.active,
+.botones button.stopActive {
+    pointer-events: none;
+    opacity: .7;
+}
+
+video {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100px;
+}
+
+.container {
+    position: relative;
+    top: 10vh;
+}
+
+.contenedor {
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: -7vh;
+}
+
+#boton_volver {
+    position: absolute; 
+    top: -9vh;
+    color:  white;
+    right: 0;
+    text-decoration: none;
+    background-color: rgb(215, 70, 126);
+    padding: 10px 15px;
+    transition-duration:1s;
+}
+
+#boton_volver:hover {
+    background-color: rgb(65, 183, 237);
+    transition-duration: 1s;
+    color: rgb(40, 39, 40);
+}

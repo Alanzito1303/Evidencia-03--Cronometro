@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+
+
+body {
+    background: url(https://wallpaperaccess.com/full/8351171.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 7em;
+    min-height: 100%;
+}
+
+.navbar-brand{
+    font-family: 'Kablammo', cursive;
+}
+
+.navbar-nav {
+    position: absolute;
+    right: 5%;
+}
+
+.container {
+    position: relative;
+    top: 10vh;
+}
+
+.card {
+    box-shadow: 0 0 5px 0 black;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.a1rd {
+    display: flex;
+    justify-content: center;
+}
+
+.a2rd {
+    display: flex;
+    justify-content: center;
+}
+
+.a3rd {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    bottom: 0;
+
+}
+
+img {
+    cursor: pointer;
+    transition: 1s;
+    filter: grayscale(100%);
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+    filter: grayscale(0%);
+}
