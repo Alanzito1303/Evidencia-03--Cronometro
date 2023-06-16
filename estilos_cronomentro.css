@@ -86,7 +86,8 @@ video {
     display: block;
     position: absolute;
     bottom: 0;
-    width: 100px;
+    left: -2vw;
+    width: 110px;
 }
 
 .container {
