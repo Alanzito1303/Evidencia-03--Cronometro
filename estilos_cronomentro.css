@@ -82,14 +82,6 @@ body {
     opacity: .7;
 }
 
-video {
-    display: block;
-    position: absolute;
-    bottom: 0;
-    left: -2vw;
-    width: 110px;
-}
-
 .container {
     position: relative;
     top: 10vh;
